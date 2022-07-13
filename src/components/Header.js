@@ -78,7 +78,7 @@ const Header = () => {
       <div className="app__left">
         <div className="app__header">
           <h1 className="gradient-text" style={{ marginBottom: "20px" }}>
-            Covid-19 Tracker
+            Covid Tracker
           </h1>
           <FormControl className="app__dropdown">
             <Select value={country} onChange={onChange} variant="outlined">

@@ -1,39 +1,37 @@
 .app__stats {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 
 .infobox {
-    flex: 1;
-    cursor: pointer;
+  flex: 1;
+  cursor: pointer;
 }
 
 .infobox:not(:last-child) {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .infobox--isActive {
-    border-top: 10px solid green;
+  border-top: 10px solid green;
 }
 
 .infobox--red {
-    border-color: red;
+  border-color: red;
 }
 
-
-
 .infobox__currentCases {
-    color: #cc1034;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    background-color: rgba(red, 0, 0, 0.4);
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background-color: rgba(red, 0, 0, 0.4);
 }
 
 .infobox__totalCases {
-    color: #6c757d;
-    font-weight: 700 !important;
-    font-size: 20px !important;
-    margin-top: 15px !important;
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  margin-top: 15px !important;
 }
